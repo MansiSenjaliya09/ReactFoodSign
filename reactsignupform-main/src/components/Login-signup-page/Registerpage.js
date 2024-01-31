@@ -7,7 +7,8 @@ import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Signuppage = () => {
+const Registerpage = () => {
+
   const history = useNavigate();
 
   const [inpval, setInpval] = useState({
@@ -20,7 +21,7 @@ const Signuppage = () => {
   const [data, setData] = useState([]);
   const [showPassword, setShowPassword] = useState(false);
 
-  console.log(inpval);
+  // console.log(inpval);
 
   const getdata = (e) => {
     const { value, name } = e.target;
@@ -117,5 +118,5 @@ const Signuppage = () => {
   );
 };
 
-export default Signuppage;
+export default Registerpage;
 

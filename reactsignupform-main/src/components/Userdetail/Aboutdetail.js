@@ -5,7 +5,6 @@ const AboutDetail = () => {
 
   const history = useNavigate();
   const Menushow = ()=>{
-    // history("/Foodmaindetail");
     history("/homefood");
 }
 const Useshow = ()=>{

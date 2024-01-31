@@ -68,7 +68,7 @@ const Login = () => {
             position: 'top-center',
           });
         } else {
-          console.log('User login successful');
+          // console.log('User login successful');
           localStorage.setItem('user_login', JSON.stringify(userlogin));
           history('/aboutdetail');
         }
